@@ -1,0 +1,21 @@
+{
+  "name": "gridplay/aviworldslogin",
+  "description": "GridPlay SL OAuth2 Provider for Laravel Socialite",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christopher Strachan",
+      "email": "chrisx84@live.ca"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ext-json": "*",
+    "socialiteproviders/manager": "~4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "GridPlay\\AWLogin\\": ""
+    }
+  }
+}
